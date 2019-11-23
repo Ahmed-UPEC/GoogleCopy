@@ -33,3 +33,31 @@ li {
 .rub {
     margin-top: 5px;
 }
+
+.google {
+    height: 210px;
+    width: 280px;
+    margin-left: 620px ;
+    margin-top: 50px;
+}
+
+.input {
+    height: 40px;
+    width: 500px;
+    margin-left: 500px;
+    padding-left: 40px;
+    font-size: 14px;
+    color: black;
+    border: 1px solid #e5e5e5;
+    border-radius: 100px;
+    box-shadow: 0px 1px 0px 0px #e5e5e5;
+}
+
+.search {
+    height: 20px;
+    margin-left: 510px;
+}
+
+.searchdiv {
+    margin-top: -30px;
+}
