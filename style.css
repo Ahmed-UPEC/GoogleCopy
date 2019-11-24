@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
-    width: 1520px;
 }
 
 #mainlist {
@@ -27,7 +26,7 @@ li {
     padding: 5px;
     width: 100px;
     color: white;
-    background: rgb(69, 69, 224);
+    background: rgb(98, 98, 240);
     border: none;
 }
 
@@ -57,9 +56,6 @@ li {
 .input:focus {
     outline: none;
 }
-.input::placeholder{
-    
-}
 
 .search {
     height: 20px;
@@ -72,18 +68,43 @@ li {
 
 
 .m_button {
-    margin: 40px 0px 0px 610px;
+    margin: 45px 0px 0px 600px;
 }
 .m_button > button {
     padding: 10px 20px;
     font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
-}
-.B1 {
     border: none;
     background: #f0f0f0;
-    margin-right: 15px;
+    margin-right: 10px;
+    border-radius: 2px;
 }
-.B2 {
-    border: none;
-    background: #f0f0f0;
+
+hr {
+    margin: 0;
+    padding: 0;
+    border-color: rgb(235, 235, 235);
+}
+
+footer {
+    margin-top: 207px;
+    background: #f2f2f2;
+    height: 90px;
+    width: auto;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+}
+.F_h > h4 {
+    margin: 0;
+}
+.F_h {
+    margin-left: 30px;
+    text-align: left;
+    color: rgba(0,0,0,.54);
+
+}
+.F_b {
+    padding-left: 20px;
+    border-top: 1px solid #e4e4e4;
 }
