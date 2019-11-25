@@ -80,6 +80,15 @@ a {
 .searchdiv {
     margin-top: -32px;
 }
+.voice {
+    height: 40px;
+    position: absolute;
+    left: 1028px;
+    bottom: -8px;
+}
+.voicediv {
+    position: relative;
+}
 
 
 .m_button {
