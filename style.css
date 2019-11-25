@@ -35,16 +35,16 @@ li {
 }
 
 .google {
-    height: 210px;
-    width: 280px;
+    height: 100px;
+    width: 300px;
     margin-left: 620px ;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .input {
     height: 44px;
     width: 561px;
-    margin: 0px 0px 0px 479.1px;
+    margin: 40px 0px 0px 479.1px;
     padding: 0px 0px 0px 40px;
     font-size: 14px;
     color: black;
@@ -58,12 +58,12 @@ li {
 }
 
 .search {
-    height: 20px;
-    margin: 0px 0px 0px 493px;
+    height: 15px;
+    margin: 0px 0px 0px 496px;
 }
 
 .searchdiv {
-    margin-top: -33px;
+    margin-top: -32px;
 }
 
 
@@ -79,32 +79,35 @@ li {
     border-radius: 2px;
 }
 
-hr {
-    margin: 0;
-    padding: 0;
-    border-color: rgb(235, 235, 235);
-}
-
 footer {
-    margin-top: 207px;
-    background: #f2f2f2;
+    margin-top: 268px;
+    background: #f0f0f0;
     height: 90px;
-    width: auto;
-    border-top: 1px solid #e4e4e4;
-    line-height: 40px;
-    font-size: 15px;
-    font-family: arial,sans-serif;
 }
-.F_h > h4 {
-    margin: 0;
+.Haut {
+    border-top: 1px solid ;
+    border-bottom: 1px solid;
+    padding-left: 25px;
+} 
+.Langue {
+    margin: 10px 0px;
 }
-.F_h {
-    margin-left: 30px;
-    text-align: left;
-    color: rgba(0,0,0,.54);
-
+.Bas {
+    height: 10px;
+    background: #f0f0f0;
+    margin-top: -20px;
 }
-.F_b {
-    padding-left: 20px;
-    border-top: 1px solid #e4e4e4;
+.Bas h4 {
+    padding: 0px 25px;
+}
+.BasGauche {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.BasDroit {
+    display: flex;
+    float: right;
+    flex-direction: row;
 }
