@@ -8,6 +8,13 @@ body {
     list-style: none;
     margin-left: 1200px;
 }
+.rub > a {
+    color: #5F6368;
+}
+.rub > a:hover {
+    text-decoration: underline;
+    color: rgb(127, 129, 131);
+}
 
 li {
     float: left;
@@ -152,5 +159,4 @@ p > a {
 }
 p > a:hover {
     text-decoration: underline;
-    
 }
